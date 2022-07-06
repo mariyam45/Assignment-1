@@ -1,4 +1,163 @@
 body {
-    font-family: 'Arima', cursive;
+    font-family: 'Roboto Serif', serif;
     margin: 0;
+    padding: 0px;
+}
+
+
+
+.div1 h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    margin-top: 0px;
+
+}
+
+.div1 p {
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.div1 {
+    text-align: center;
+    background-image: linear-gradient(rgba(43, 49, 49, 0.486), rgba(0, 61, 58, 0.692)), url(img/charity-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 90px;
+    padding: 150px 0;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(8, 185, 171, 0.925), rgba(3, 218, 207, 0.692));
+    padding: 5px 9px 5px 9px;
+    color: white;
+    font-weight: 200;
+    border-radius: 8px;
+
+
+}
+
+#today {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+
+
+
+}
+
+.donate-today p {
+    margin-top: 10px;
+}
+
+
+.donate-today {
+    text-align: center;
+
+}
+
+.parent1 {
+    display: flex;
+    margin: 10px 300px;
+    margin-bottom: 80px;
+
+}
+
+.taka {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: 90;
+    padding: 25px;
+    background-color: rgba(162, 175, 179, 0.377);
+    margin: 20px;
+    font-weight: 900;
+    border-radius: 4px;
+
+
+
+
+}
+
+.blue {
+    border: 5px solid rgb(6, 161, 189);
+    background-color: rgba(0, 255, 234, 0.493);
+}
+
+.otherAmount {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-bottom: 3px solid rgb(185, 185, 185);
+    margin-bottom: 40px;
+
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.button2 {
+    margin-top: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(0, 141, 141), rgba(7, 185, 185, 0.644));
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition-duration: 2s;
+    box-shadow: 3px 3px 6px grey;
+}
+
+.bigbox1 {
+    height: 300px;
+    padding: 30px 30px;
+    background-color: rgba(255, 228, 196, 0.397);
+    margin: 20px;
+
+
+}
+
+.bigbox2 {
+    height: 300px;
+    padding: 30px 30px;
+    background-color: rgba(175, 255, 144, 0.342);
+    margin: 20px;
+
+}
+
+.bigbox3 {
+    height: 300px;
+    padding: 30px 30px;
+    background-color: rgba(164, 249, 252, 0.473);
+    margin: 20px;
+}
+
+.parent2 {
+    display: flex;
+    margin: 30px 30px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+
+}
+
+#plan {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.plan {
+    margin-top: 350px;
 }
